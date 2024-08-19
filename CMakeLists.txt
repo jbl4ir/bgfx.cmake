@@ -11,6 +11,7 @@
 cmake_minimum_required(VERSION 3.10.2) # version supported by android studio
 project(bgfx)
 cmake_policy(SET CMP0054 NEW)
+cmake_policy(SET CMP0127 NEW)
 
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 set(CMAKE_CXX_STANDARD 17)
